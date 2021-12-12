@@ -1,0 +1,16 @@
+language: python3-http-selenium
+fprocess: python index.py
+build_options:
+  - name: selenium
+    packages: 
+      - make
+      - automake
+      - gcc
+      - g++
+      - subversion
+      - python3-dev
+      - musl-dev
+      - libffi-dev
+      - git
+      - chromium
+      - chromium-chromedriver
